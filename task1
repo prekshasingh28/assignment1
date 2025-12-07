@@ -1,0 +1,14 @@
+num1 = input("Enter the first number: ")
+num2 = input("Enter the second number: ")
+
+# performing basic mathematical operations
+addition = int(num1) + int(num2)
+subtraction = int(num1) - int(num2)
+multiplication = int(num1) * int(num2)
+division = round(float(num1) / float(num2), 2)
+
+# to perform mathematical operations
+print("Addition: ", addition)
+print("Subtraction: ", subtraction)
+print("Multiplication: ", multiplication)
+print("Division: ", division)
